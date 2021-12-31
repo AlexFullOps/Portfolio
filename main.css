@@ -1,4 +1,6 @@
-/* ----- RESET ----- */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +18,13 @@ nav a {
 }
 
 body {
-    background-color: blue;
+    background-color: white;
 }
 
 main {
-    background-color: blue;
+    background-color: white;
     margin: 0.8% 15%;
-    border: 1px solid #3207f0;
+    
 }
 
 html {
@@ -31,33 +33,41 @@ html {
 h1{
     text-align: center;
     font-size: 45px;
+    color: black;
 }
 h2{
     text-align: center;
     font-size: 35px;
+    font-family: Oswald;
+    color: black;
+    font-weight: 800;
 }
 h3{
     text-align: center;
     font-size: 25px;
+    font-family: Merriweather;
+    color: black;
+    font-weight: 800;
 }
 
 p{
-    color: white;
+    color: black;
     font-size: 20px;
+    font-family: Lato;
+    text-align: center;
+}
+.tt{
+    color: black;
+    font-size: 20px;
+    font-family: Lato;
     text-align: center;
 }
 .titulo{
     text-align: center;
-    color: white;
+    color: black;
 }
 
-/* ----- HEADER ----- */
-#MarginTop {
-    border-top: 5px solid #3207f0;
-}
-#MarginBot {
-    border-top: 5px solid #3207f0;
-}
+
 #skills2{
     margin-left: 2px;
 }
@@ -68,12 +78,10 @@ p{
     align-items: center;
     flex-flow: row wrap;
     padding: 10px 50px;
-    border: 5px solid #3207f0;
+    color: white;
+   
 }
 
-.container .logo img {
-    width: 400px;
-}
 
 .container .menu ul {
     display: flex;
@@ -88,31 +96,25 @@ p{
     margin-left: 0px;
 }
 
-
-/* ----- BOTAO ----- */
 .container .menu .btn {
     padding: 5px 15px;
-    background-color: blue;
-    border: solid 2px #3207f0;
+    background-color: white;
     font-size: 1rem;
-    color: white;
+    color: black;
     font-weight: bold;
     transition: all 900ms ease;
     border-radius: 30px;
 }
 
 .container .menu .btn:hover {
-    background-color: white;
-    color: blue;
+    background-color: black;
+    color: white;
     transition: all 900ms ease;
     width: 100%;
     height: 100%;
-    border: solid 2px rgb(43, 41, 41);
 }
 
 
-
-/* ----- SOBRE -----*/
 .titulo{
     text-align: center;
 }
@@ -123,8 +125,7 @@ p{
 .sobre {
     margin: 30px 100px;
     padding: 20px;
-    background-color: black;
-    border: 1px solid blue;
+    background-color: azure;
 }
 
 .sobre .titulo {
@@ -193,18 +194,18 @@ p{
     flex: 1;
 
 }
-img{
-    object-fit: cover;  
+img{ 
   width: 280px;
   height: 250px;
   margin-bottom: 25px;
   justify-content: center;
   padding: 20px;
+  object-fit: cover; 
 }
 img:hover{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     cursor: pointer;
     transition: 1s;
 }
@@ -214,8 +215,17 @@ img:hover{
     margin-left: 50px;
     margin-top:-40px;
 }
-
-/* ----- CONTATOS ----- */
+.img-icon{
+    width: 100%;
+}
+video{
+    margin-top: 50px;
+}
+#skills{
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: black;
+}
 .contato {
     display: flex;
     justify-content: center;
@@ -244,12 +254,11 @@ img:hover{
     opacity: 0.5;
 }
 
-/* ----- FOOTER ----- */
 footer p {
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
-    border: 5px solid #3207f0;
+    border: 2px solid black;
 }
 
 .ico{
@@ -260,7 +269,7 @@ footer p {
 }
 
 .social-media{
-    color: white;
+    color: black;
     width: 100%;
     display: flex;
     align-items: center;
@@ -274,7 +283,7 @@ i{
     width: 100%;
     height: 100%;
     font-size: 1.8em;
-    color: white;
+    color: black;
     text-align: center;
     cursor: pointer;
 }
@@ -285,6 +294,17 @@ i:hover{
     color: black;
     text-align: center;
     cursor: pointer;
+}
+.describ{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    
 }
 
 

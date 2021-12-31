@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,14 +12,14 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    background-color: white;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 h2{
-    font-family: sans-serif;
-    font-size: 1.5rem;
+    font-family: Oswald;
+    font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 0px;
 }
@@ -24,7 +28,7 @@ a{
     color: white;
 }
 a:hover{
-    color: blue;
+    color: azure;
 }
 .container{
     width: 100%;
@@ -37,7 +41,7 @@ a:hover{
 .single-content{
     min-width: 55%;
     height: 100vh;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +72,7 @@ a:hover{
     font-size: 1.3em;
     font-weight: 600;
     border-radius: 5px;
-    background-color: #428af5;
+    background-color: black;
     border: 1px solid white;
     color: white;
     cursor: pointer;
@@ -123,7 +127,7 @@ form button{
     font-size: 1.3em;
     font-weight: 600;
     border-radius: 5px;
-    background-color: blue;
+    background-color: black;
     border: none;
     color: white;
     margin: 20px 0;
@@ -131,8 +135,8 @@ form button{
 }
 
 form button:hover{
-    color: blue;
-    background-color: white;
+    color: black;
+    background-image: rgb(black, rgb(36, 35, 35), rgb(100, 99, 99));;
     transition:all 0.30s;
 }
 
@@ -185,7 +189,7 @@ i{
 }
 
 i:hover{
-    color: white;
+    color: black;
     transition: all 0.30s;
 }
 
